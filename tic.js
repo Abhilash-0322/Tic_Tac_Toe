@@ -133,6 +133,7 @@ const checkwinner=()=>{
         }
     }
 };
+modeAI();
 // function selectmode(){
 // if(AI){
 //     modeAI();
@@ -141,4 +142,3 @@ const checkwinner=()=>{
 //  modeMutiplayer();   
 // }
 // }
-modeAI();
