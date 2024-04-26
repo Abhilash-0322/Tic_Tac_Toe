@@ -48,7 +48,7 @@ const winPatterns=[
     [6,7,8]
 ]
 function modeAI(){
-    makeAIMove();
+    // makeAIMove();
     boxes.forEach((box)=>{
         box.addEventListener("click",()=>{
             console.log("box was clicked");
