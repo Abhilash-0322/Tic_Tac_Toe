@@ -58,8 +58,10 @@ function modeAI(){
             }
             box.disabled=true;
              // AI move after player's move
-            checkwinner();  
-            makeAIMove();
+            checkwinner();
+            if(!won){
+                makeAIMove();
+            }
         })
     })
 }
