@@ -157,8 +157,8 @@ const Newgame = () => {
   boxes.forEach((box) => {
     box.disabled = false;
     color_val=Math.floor(Math.random() * 63);
-    color_r=colors_l[color_val];
-    box.style.backgroundColor = color_r;
+    // color_r=colors_l[color_val];
+    // box.style.backgroundColor = color_r;
     box.innerText = "";
   });
   makeAIMove();
